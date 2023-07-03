@@ -20,8 +20,8 @@ void main()
   List l5=List.filled(10,20);//list filled
   l5[5]=5;
   l5[9]=7;
-  List l6=List.generate(6, (index) => 5*index);
-
+  List l6=List.generate(6, (index) => 5*index);//list generate
+  List l7=List.unmodifiable([10]);//list unmodifiable
 
   print("Literal list  - $mylist");
   print("Literal list2 - $a");
@@ -31,4 +31,5 @@ void main()
   print("L4            - $l4");
   print("L5            - $l5");
   print("L6            - $l6");
+  print("L7            - $l7");
 }
