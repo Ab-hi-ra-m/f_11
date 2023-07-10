@@ -1,14 +1,14 @@
 class Grandfather
 {
-  String n1="Jacky";
+  String n1="KURUP";
 }
 class Father extends Grandfather
 {
-  String n2="Alias";
+  String n2="NARAYANA";
 }
 class Son extends Father
 {
-  String n3="Sagar";
+  String n3="DEVA";
 }
 void main()
 {

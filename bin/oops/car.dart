@@ -28,6 +28,6 @@ void main()
   print("__________________________________");
   print("__________________________________");
   BMW o1 = BMW();
-  print("my car is ${o1.model}");
+  print("my car is ${o1.model} ${o1.type}");
   o1.details("jet black",6,"Petrol",2,2023);
 }
